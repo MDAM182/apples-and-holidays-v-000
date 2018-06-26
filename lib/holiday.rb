@@ -34,8 +34,7 @@ end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
-  
-    holiday_hash[:spring].each do |holiday, items|
+  holiday_hash[:spring].each do |holiday, items|
       items << supply
       puts items
   # again, holiday_hash is the same as the ones above
